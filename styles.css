@@ -44,7 +44,7 @@ footer {
 }
 
 h3,
-h4,h1 {
+h4{
   color: rgb(239, 112, 32);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -59,13 +59,12 @@ h4 {
 }
 /** opciones */
 
-.container header .menu li a {
+.container header ul li a {
   padding: 20px 0px 20px 0px;
   width: 110px;
   margin: 0;
   display: flex;
   justify-content: center;
-  color: rgb(239, 112, 32);
   font-weight: 500;
 }
 

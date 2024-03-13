@@ -44,7 +44,7 @@ footer {
 }
 
 h3,
-h4 {
+h4,h1 {
   color: rgb(239, 112, 32);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -418,17 +418,17 @@ footer {
   }
 
   .form-row button:hover {
-    background-color: #76aeed;
+    background-color: rgb(110, 201, 158);
   }
 
   .form-row button:active {
-    background-color: #407fc7;
+    background-color: rgb(4, 141, 80);
   }
 
   .form-row input[type="text"],
   .form-row input[type="email"],
   .form-row textarea {
-    background-color: #bdbdbd;
+    background-color: rgba(165, 221, 195, 0.4);
     border: 0;
     border-radius: 6px;
     width: 100%;

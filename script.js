@@ -45,7 +45,9 @@ function validarFormulario() {
 form.addEventListener("submit", (e) => {
   if (validarFormulario()) {
     // Si la validación es exitosa, puedes enviar el formulario
+    window.confirm("En unos momentos nos contactaremos contigo "+ nombre.value + ' , gracias por ponerte en contacto con nosotros.');
     formulario.submit();
+    
   } else {
     e.preventDefault(); // Evita que el formulario se envíe automáticamente
   }

@@ -6,6 +6,10 @@
   list-style: none;
 }
 
+.parrafo1{
+  margin-bottom: 1em;
+}
+
 a {
   text-decoration: none;
   font-size: 15px;
@@ -55,7 +59,7 @@ h4 {
 }
 /** opciones */
 
-.container header ul li a {
+.container header .menu li a {
   padding: 20px 0px 20px 0px;
   width: 110px;
   margin: 0;
@@ -111,14 +115,19 @@ header nav ul {
 #footer {
   padding: 1em;
   margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-ul {
-  padding: 0px;
+#footer nav{
+  display: flex;
+  justify-content: center;
 }
-#footer nav ul li {
-  margin-top: 0.7em;
-  color: rgb(57, 49, 126);
+
+#footer  li, #footer a {
+  margin-top: 1.5em;
+  color: #5d6063;
+  font-size: 18px;
+  align-items: center;
 }
 
 footer a {
@@ -161,11 +170,7 @@ footer a {
 /**** form ****/
 
 /* ------------- CSS General ------------- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 body {
   color: #5d6063;
@@ -324,6 +329,7 @@ footer {
   }
   .parrafo1 {
     margin-top: 1em;
+    margin-bottom: 1em;
   }
 
   .container nav ul li a {
@@ -395,12 +401,10 @@ footer {
     margin-bottom: 20px;
   }
   .form-row input[type="text"] {
-    width: 250px;
     height: initial;
   }
   .form-row label {
     text-align: right;
-    width: 120px;
     margin-top: 7px;
     padding-right: 20px;
   }
